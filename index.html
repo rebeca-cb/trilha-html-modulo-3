@@ -9,36 +9,56 @@
 </head>
 <body>
 
-    <div>   
-        <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+    <header class="banner">   
+        <div class="logo" aria-label="Logotipo do site">
+            <img src="assets/images/logo.png" width="200" alt="Logotipo do site"/>
         </div>
-    </div>
+    </header>
 
-    <div class="bar"></div>
+    <nav class="bar"></nav>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <main class="content" role="main">
+        
+        <nav class="sidebar" role="navigation" aria-label="Menu de séries de TV">
+            <h2>Séries de TV</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="#">Gilmore Girls</a></li>
             </ul>
-        </div>
+        </nav>
+        
+        <article class="conteudo-principal">
+            <section class="section1">
+                <h1 id="inicio">Gilmore Girls</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vTpwGL47xt4?si=P1sneZTCh7Z3iQIQ" title="Abertura de Gilmore Girls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen align="center"></iframe>
+                <br />
+            </section>
+            <section class="section2">
+                <p><b><i>Gilmore Girls</i></b> é uma série de televisão norte-americana, de comédia dramática, criado por Amy Sherman-Palladino e protagonizada por Lauren Graham e Alexis Bledel. A série estreou em 5 de outubro de 2000 pela The WB e tornou-se uma série emblemática para a rede. <i>Gilmore Girls</i> originalmente teve sete temporadas, com a temporada final mudada para a The CW, e terminou sua transmissão em 15 de maio de 2007. O principal foco do programa é a relação entre a mãe solteira Lorelai Gilmore e sua filha Rory, que moram em Stars Hollow, Connecticut, uma pequena cidade fictícia com personagens bem peculiares. A série explora questões familiares, românticas, educacionais e sobre amizades, juntamente com divisões das classes sociais, o último tema é sobre a difícil relação de Lorelai com seus pais da alta sociedade, Emily e Richard, as experiências de Rory em uma escola de elite e posteriormente na Universidade de Yale. </p>
+                <p>Sherman-Palladino, que foi a <i>showrunner</i> da série, inseriu em <i>Gilmore Girls</i> distintos diálogos, repletos de referências da cultura <i>pop</i>. Após a sexta temporada, quando a série foi movida para a CW, Sherman-Palladino deixou a série e foi substituída por David S. Rosenthal na temporada final. A série foi produzida e distribuída pela Warner Bros. Television e filmada no estúdio em Burbank, Califórnia. Em 2016, a Netflix confirmou o retorno da série, com quatro novos episódios de 90 minutos de duração que foram disponibilizados para <i>streaming</i> no mesmo ano. Os novos episódios foram escritos e dirigidos pela própria criadora da série e seu marido, Daniel Palladino, sob o título <i>Gilmore Girls: A Year in the Life.</i></p>
+                <br />
 
-        <div class="main">
-            
-        </div>
-
-        <div class="anchors">
+                <h2 id="premissa">Premissa</h2>
+                <hr />
+                <p>Lorelai Gilmore fez algumas escolhas erradas em sua vida, mas tem feito o melhor que pode para educar a sua filha Rory e colocá-la na faculdade. Lorelai teve Rory com apenas dezesseis anos e isto causou muita fricção com seus conservadores pais, Richard e Emily Gilmore. Esta família de classe alta decidiu que Lorelai teria de se casar com o pai de Rory e, devido a imensas discussões, Lorelai decide fugir de casa, emancipar-se e criar Rory sozinha. Encontra refúgio na pequena cidade de Stars Hollow, onde o povoado é tudo menos usual. A pequena cidade, que parece ter saído de um livro de contos infantis, é um local agradável para se viver. Repleta de pessoas que as tratam bem, como Sookie St. James, cozinheira na pousada em que Lorelai é gerente e Luke Danes, dono da lanchonete mais movimentada de Stars Hollow, que tem uma queda por Lorelai. </p>
+            </section>
+        </article>
+    
+       
+        <aside class="anchors" role="complementary" aria-label="Navegue pelo artigo!">
             <h2>Neste Artigo</h2>
-            <ul>
-                <li><a href="#">Âncoras</a></li>
-            </ul>
-        </div>
-    </div>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#premissa">Premissa </a></li>
+                </ul>
+        </aside>
+        
+    </main>
 
-    <div class="footer">
+    <footer class="footer" role="rodape">
+        <nav>
+            <p>Colabore conosco!</p>
+        </nav>
+    </footer>
 
-    </div>
 </body>
 </html>
